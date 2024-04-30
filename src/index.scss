@@ -1,24 +1,2 @@
-// Google Font Import
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html,
-body {
-  min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 // SCSS File Import
 @import "Sass/main.scss";
