@@ -22,6 +22,7 @@
         display: flex;
         align-items: center;
         gap: 40px;
+        cursor: pointer;
     }
 
     & button {
@@ -50,6 +51,7 @@
 
     &-search-icon{
         position: relative;
+        cursor: pointer;
 
         & .dot {
             position: absolute;
@@ -59,6 +61,7 @@
             border-radius: 5px;
             top: -8px;
             right: -8px;
+            cursor: pointer;
         }
     }
 
