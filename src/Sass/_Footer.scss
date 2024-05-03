@@ -53,3 +53,20 @@
         background-color: grey;
     }
 }
+
+// Media Query Starts
+@media (max-width: 1050px) {
+    .footer {
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+
+        &-copyright {
+            text-align: center;
+        }
+
+    }
+}
